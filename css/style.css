@@ -230,7 +230,7 @@ img {
       color: #fff; }
   .section-advantages .title {
     margin-bottom: 34px;
-    font-size: 30px; }
+    font-size: 32px; }
 
 .section-services {
   padding-top: 53px; }
@@ -313,6 +313,101 @@ img {
       font-size: 25px;
       text-transform: uppercase;
       color: #fff; }
+
+.section-description {
+  padding-top: 52px;
+  padding-bottom: 60px;
+  background: linear-gradient(180deg, #205AA7 0%, #0492D8 100%);
+  color: #fff; }
+  .section-description .section-inner {
+    display: flex;
+    justify-content: space-between; }
+  .section-description-content {
+    max-width: 50%;
+    min-width: 50%; }
+  .section-description__title {
+    font-family: 'Helvetica-Neue-Consended';
+    margin-bottom: 30px;
+    font-size: 26px;
+    font-weight: 700; }
+    .section-description__title span {
+      text-transform: uppercase;
+      font-size: 46px;
+      line-height: 1.5; }
+  .section-description__text {
+    margin-bottom: 25px;
+    font-size: 15px;
+    line-height: 1.2;
+    font-weight: 300; }
+    .section-description__text p {
+      margin-bottom: 25px; }
+      .section-description__text p:last-child {
+        margin-bottom: 0; }
+      .section-description__text p:first-child {
+        width: 72%; }
+  .section-description__button {
+    margin-bottom: 12px;
+    padding: 11px 17px;
+    border: none;
+    outline: none;
+    color: #2B74B9;
+    cursor: pointer; }
+  .section-description-slider {
+    max-width: 530px; }
+    .section-description-slider #description-slider .slide {
+      position: relative;
+      width: 530px;
+      height: 275px; }
+      .section-description-slider #description-slider .slide-video-placeholder {
+        position: absolute;
+        top: 0;
+        z-index: 1; }
+    .section-description-slider .owl-carousel .owl-video-play-icon {
+      position: absolute;
+      height: 68px;
+      width: 250px;
+      left: 8px;
+      bottom: 8px;
+      background: url("../img/description/Play.svg") no-repeat;
+      cursor: pointer;
+      z-index: 1;
+      -webkit-backface-visibility: hidden;
+      transition: transform 100ms ease; }
+      .section-description-slider .owl-carousel .owl-video-play-icon svg {
+        height: 68px;
+        width: 68px; }
+      .section-description-slider .owl-carousel .owl-video-play-icon:before {
+        content: 'Познакомьтесь с клиникой за 3 минуты';
+        position: relative;
+        top: 25%;
+        left: 88px;
+        width: 100%;
+        font-size: 18px;
+        line-height: 1.15; }
+    .section-description-slider .menuSlider {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px; }
+    .section-description-slider .owl-theme .owl-nav.disabled + .owl-dots {
+      position: absolute;
+      bottom: -148px;
+      left: 50%;
+      transform: translateX(-50%); }
+    .section-description-slider .owl-theme .owl-dots .owl-dot.active span, .section-description-slider .owl-theme .owl-dots .owl-dot:hover span {
+      background: white;
+      opacity: 1; }
+    .section-description-slider .button-play {
+      position: absolute;
+      bottom: 8px;
+      left: 8px;
+      width: 68px;
+      height: 68px; }
+    .section-description-slider .start-video-title {
+      position: absolute;
+      bottom: 15px;
+      left: 103px;
+      max-width: 231px;
+      font-size: 18px; }
 
 .section-team .title {
   font-size: 25px;

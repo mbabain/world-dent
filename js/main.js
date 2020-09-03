@@ -14,9 +14,16 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
     $("#discounts-slider").owlCarousel({
-        stagePadding: 200,
-        items: 2,
+        center: true,
+        items: 2.7,
         margin: 22,
+        loop: true
+    });
+});
+$(document).ready(function(){
+    $("#description-slider").owlCarousel({
+        video:true,
+        items: 1,
         loop: true
     });
 });
