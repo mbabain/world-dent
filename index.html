@@ -53,86 +53,100 @@
 </svg>
 <!-- /Sprites -->
 
-<!-- Header -->
-<header class="section-header">
-    <div class="section-inner">
-        <div class="section-header-info">
-            <div class="section-header-info__item">
-                <div class="section-header-info__item-img">
-                    <svg class="map-mark">
-                        <use xlink:href="#map-mark"></use>
-                    </svg>
+<header class="section-header-outer">
+    <div class="section-header-outer-wrapper">
+        <button class="section-header-outer-button button button--blue-lighter">Посмотреть все услуги</button>
+
+        <!-- Header -->
+        <div class="section-header">
+            <div class="section-inner">
+                <div class="section-header-info">
+                    <div class="section-header-info__item">
+                        <div class="section-header-info__item-img">
+                            <svg class="map-mark">
+                                <use xlink:href="#map-mark"></use>
+                            </svg>
+                        </div>
+                        <div class="section-header-info__item-text">
+                            ул. Рокоссовского 32А (5 этаж)
+                        </div>
+                    </div>
+                    <div class="section-header-info__item">
+                        <div class="section-header-info__item-img">
+                            <svg class="clock">
+                                <use xlink:href="#clock"></use>
+                            </svg>
+                        </div>
+                        <div class="section-header-info__item-text">
+                            Каждый день 09:30 - 19:30
+                        </div>
+                    </div>
                 </div>
-                <div class="section-header-info__item-text">
-                    ул. Рокоссовского 32А (5 этаж)
+                <div class="section-header-buttons">
+                    <button class="button button--blue-lighter">Посмотреть все услуги</button>
+                    <button class="button button--blue">Расчитать стоимость</button>
                 </div>
-            </div>
-            <div class="section-header-info__item">
-                <div class="section-header-info__item-img">
-                    <svg class="clock">
-                        <use xlink:href="#clock"></use>
-                    </svg>
-                </div>
-                <div class="section-header-info__item-text">
-                    Каждый день 09:30 - 19:30
+                <div class="section-header-registration">
+                    <div class="section-header-registration__tel">
+                        <div class="section-header-registration__tel-img">
+                            <svg class="tel">
+                                <use xlink:href="#tel"></use>
+                            </svg>
+                        </div>
+                        <a href="tel:+78004440887" class="section-header-registration__tel-text">
+                            8 800 444 08 87
+                        </a>
+                    </div>
+                    <a href="#" class="section-header-registration__callback">
+                        Запись на прием
+                    </a>
                 </div>
             </div>
         </div>
-        <div class="section-header-buttons">
-            <button class="button button--blue-lighter">Посмотреть все услуги</button>
-            <button class="button button--blue">Расчитать стоимость</button>
-        </div>
-        <div class="section-header-registration">
-            <div class="section-header-registration__tel">
-                <div class="section-header-registration__tel-img">
-                    <svg class="tel">
-                        <use xlink:href="#tel"></use>
-                    </svg>
-                </div>
-                <div class="section-header-registration__tel-text">
-                    8 800 444 08 87
-                </div>
+        <!-- /Header -->
+
+        <!-- Nav -->
+        <section class="section-links">
+            <div class="section-inner">
+                <a href="#" class="section-links-logo">
+                    <img src="img/nav/logo.png" alt="">
+                </a>
+                <nav class="section-links-nav">
+                    <a href="#" class="section-links-nav__item">
+                        Услуги и цены
+                    </a>
+                    <a href="#" class="section-links-nav__item">
+                        наши врачи
+                    </a>
+                    <a href="#" class="section-links-nav__item">
+                        Акции
+                    </a>
+                    <a href="#" class="section-links-nav__item">
+                        О клинике
+                    </a>
+                    <a href="#" class="section-links-nav__item">
+                        наши Работы
+                    </a>
+                    <a href="#" class="section-links-nav__item">
+                        Отзывы
+                    </a>
+                    <a href="#" class="section-links-nav__item">
+                        Контакты
+                    </a>
+                </nav>
             </div>
-            <a href="#" class="section-header-registration__callback">
-                Запись на прием
-            </a>
+        </section>
+        <!-- /Nav -->
+
+        <div class="burger-background"></div>
+
+        <div class="burger">
+            <span class="bar" id="bar1"></span>
+            <span class="bar" id="bar2"></span>
+            <span class="bar" id="bar3"></span>
         </div>
     </div>
 </header>
-<!-- /Header -->
-
-<!-- Nav -->
-<section class="section-links">
-    <div class="section-inner">
-        <a href="#" class="section-links-logo">
-            <img src="img/nav/logo.png" alt="">
-        </a>
-        <nav class="section-links-nav">
-            <a href="#" class="section-links-nav__item">
-                Услуги и цены
-            </a>
-            <a href="#" class="section-links-nav__item">
-                наши врачи
-            </a>
-            <a href="#" class="section-links-nav__item">
-                Акции
-            </a>
-            <a href="#" class="section-links-nav__item">
-                О клинике
-            </a>
-            <a href="#" class="section-links-nav__item">
-                наши Работы
-            </a>
-            <a href="#" class="section-links-nav__item">
-                Отзывы
-            </a>
-            <a href="#" class="section-links-nav__item">
-                Контакты
-            </a>
-        </nav>
-    </div>
-</section>
-<!-- /Nav -->
 
 <!-- First-block -->
 <section class="section-first-block">
@@ -196,7 +210,7 @@
         <div class="section-advantages-items">
             <div class="section-advantages-item">
                 <div class="section-advantages-item__img">
-                    <img src="img/advantages/medal.svg" alt="">
+                    <img src="img/advantages/medal.png" alt="">
                 </div>
                 <div class="section-advantages-item__text">
                     Лучшая стоматология Волгограда
@@ -204,7 +218,7 @@
             </div>
             <div class="section-advantages-item">
                 <div class="section-advantages-item__img">
-                    <img src="img/advantages/people.svg" alt="">
+                    <img src="img/advantages/people.png" alt="">
                 </div>
                 <div class="section-advantages-item__text">
                     Более 3000 пациентов ежегодно
@@ -212,7 +226,7 @@
             </div>
             <div class="section-advantages-item">
                 <div class="section-advantages-item__img">
-                    <img src="img/advantages/review.svg" alt="">
+                    <img src="img/advantages/review.png" alt="">
                 </div>
                 <div class="section-advantages-item__text">
                     967 положительных отзывов
@@ -220,7 +234,7 @@
             </div>
             <div class="section-advantages-item">
                 <div class="section-advantages-item__img">
-                    <img src="img/advantages/doctor.svg" alt="">
+                    <img src="img/advantages/doctor.png" alt="">
                 </div>
                 <div class="section-advantages-item__text">
                     30 врачей
@@ -382,13 +396,13 @@
                 </div>
             </div>
             <div class="menuSlider">
-                <a href="#1">
+                <a class="menuSlider-item" href="#1">
                     <img src="img/description/show-1.jpg" alt="">
                 </a>
-                <a href="#2">
+                <a class="menuSlider-item" href="#2">
                     <img src="img/description/show-1.jpg" alt="">
                 </a>
-                <a href="#3">
+                <a class="menuSlider-item" href="#3">
                     <img src="img/description/show-1.jpg" alt="">
                 </a>
             </div>
@@ -545,7 +559,7 @@
     <div class="section-inner">
         <div class="title title--blue">Нам доверяют</div>
         <div class="section-partners-items">
-            <div class="section-partners-item">
+            <div id="zoon" class="section-partners-item">
                 <div class="section-partners-item__img">
                     <img src="img/partners/zoon.png" alt="">
                 </div>
@@ -553,23 +567,7 @@
                     <span>4,8</span> из 5
                 </div>
             </div>
-            <div class="section-partners-item">
-                <div class="section-partners-item__img">
-                    <img src="img/partners/recommended-ru.png" alt="">
-                </div>
-                <div class="section-partners-item__rating">
-                    <span>4,9</span> из 5
-                </div>
-            </div>
-            <div class="section-partners-item">
-                <div class="section-partners-item__img">
-                    <img src="img/partners/flamp.png" alt="">
-                </div>
-                <div class="section-partners-item__rating">
-                    <span>4,8</span> из 5
-                </div>
-            </div>
-            <div class="section-partners-item">
+            <div id="gis" class="section-partners-item">
                 <div class="section-partners-item__img">
                     <img src="img/partners/2gis.png" alt="">
                 </div>
@@ -577,7 +575,23 @@
                     <span>4,9</span> из 5
                 </div>
             </div>
-            <div class="section-partners-item">
+            <div id="flamp" class="section-partners-item">
+                <div class="section-partners-item__img">
+                    <img src="img/partners/flamp.png" alt="">
+                </div>
+                <div class="section-partners-item__rating">
+                    <span>4,8</span> из 5
+                </div>
+            </div>
+            <div id="recommended" class="section-partners-item">
+                <div class="section-partners-item__img">
+                    <img src="img/partners/recommended-ru.png" alt="">
+                </div>
+                <div class="section-partners-item__rating">
+                    <span>4,9</span> из 5
+                </div>
+            </div>
+            <div id="google" class="section-partners-item">
                 <div class="section-partners-item__img">
                     <img src="img/partners/google.png" alt="">
                 </div>
@@ -585,7 +599,7 @@
                     <span>4,0</span> из 5
                 </div>
             </div>
-            <div class="section-partners-item">
+            <div id="yandex" class="section-partners-item">
                 <div class="section-partners-item__img">
                     <img src="img/partners/yandex.png" alt="">
                 </div>
@@ -604,7 +618,7 @@
     <div class="section-inner">
         <div class="section-footer__content">
             <div class="section-footer-addresses">
-                <div class="section-footer-addresses__tel">8 800 444 08 87</div>
+                <a href="tel:+79004440887" class="section-footer-addresses__tel">8 800 444 08 87</a>
                 <div class="section-footer-addresses__callback">Перезвоните мне</div>
                 <div class="section-footer-addresses__address">
                     г.Волгоград, <br>
