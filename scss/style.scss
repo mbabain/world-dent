@@ -302,10 +302,8 @@ img {
 	}
 
 	&-buttons {
-		.button {
-			&:first-child {
-				margin-right: 20px;
-			}
+		.button + .button{
+				margin-left: 9px;
 		}
 	}
 	
@@ -1218,8 +1216,8 @@ img {
 }
 // /Team
 
-// Partners
-.section-partners {
+// Rating
+.section-rating {
 	padding-top: 50px;
 	padding-bottom: 105px;
 	
@@ -1318,6 +1316,30 @@ img {
 		&-items {
 			align-items: center;
 			flex-direction: column;
+		}
+	}
+
+	@media (max-width: 600px) {
+		.title {
+			font-size: 25px;
+		}
+	}
+}
+// /Rating
+
+// Partners 
+.section-partners {
+	padding-bottom: 79px;
+	.title {
+		font-size: 25px;
+		margin-bottom: 40px;
+	}
+
+	#partners-slider {
+		.slide {
+			min-width: 194px;
+			min-height: 60px;
+			background-color: #C4C4C4;
 		}
 	}
 

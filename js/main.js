@@ -13,6 +13,88 @@ $(document).ready(function(){
     });
   });
 $(document).ready(function(){
+    $("#partners-slider").owlCarousel({
+        center: true,
+        margin: 27,
+        responsive : {
+            0 : {
+                items: 1.2
+            },
+            250 : {
+                items: 1.4
+            },
+            300 : {
+                items: 1.6
+            },
+            350 : {
+                items: 1.8
+            },
+            400 : {
+                items: 2
+            },
+            450 : {
+                items: 2.2
+            },
+            500 : {
+                items: 2.4 
+            },
+            550 : {
+                items: 2.6
+            },
+            600 : {
+                items: 3
+            },
+            650 : {
+                items: 3.2
+            },
+            700 : {
+                items: 3.4
+            },
+            750 : {
+                items: 3.6 
+            },
+            800 : {
+                items: 3.8
+            },
+            850 : {
+                items: 4
+            },
+            900 : {
+                items: 4.2
+            },
+            950 : {
+                items: 4.4
+            },
+            1000 : {
+                items: 4.6
+            },
+            1050 : {
+                 items: 4.8
+            },
+            1100 : {
+                 items: 5
+            },
+            1150 : {
+                 items: 5.2
+            },
+            1200 : {
+                 items: 5.4
+            },
+            1250 : {
+                 items: 5.6
+            },
+            1300 : {
+                 items: 5.8
+            },
+            1350 : {
+                 items: 6
+            },
+            
+        },
+        loop: true
+    });
+  });
+$(document).ready(function(){
     $("#services-slider").owlCarousel({
         stagePadding: 80,
         margin: 12,
@@ -101,4 +183,5 @@ burgerButton.addEventListener('click', () => {
             headerTel.style.transform = 'translateX(300px)';
         });
     }
+
 });
