@@ -241,6 +241,19 @@ img {
     height: 17px; }
   .section-header .button {
     padding: 14px 33px; }
+  @media (max-width: 1300px) {
+    .section-header-info {
+      flex-direction: column; }
+      .section-header-info__item + .section-header-info__item {
+        margin-top: 10px;
+        margin-left: 0px; }
+      .section-header-info__item-img {
+        margin-right: 7px; }
+        .section-header-info__item-img svg {
+          display: block; }
+      .section-header-info__item-text {
+        font-size: 12px;
+        text-transform: capitalize; } }
   @media (max-width: 1220px) {
     .section-header {
       box-shadow: none;

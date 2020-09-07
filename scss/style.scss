@@ -357,6 +357,32 @@ img {
 		padding: 14px 33px;
 	}
 
+	@media (max-width: 1300px) {
+		&-info {
+			flex-direction: column;
+	
+			&__item {
+				
+				& + & {
+					margin-top: 10px;
+					margin-left: 0px;
+				}
+	
+				&-img {
+					margin-right: 7px;
+					svg {
+						display: block;
+					}
+				}
+	
+				&-text {
+					font-size: 12px;
+					text-transform: capitalize;
+				}
+			}
+		}
+	}
+
 	@media (max-width: 1220px) {
 		box-shadow: none;
 		background-color: rgba(0, 0, 0, 0);
