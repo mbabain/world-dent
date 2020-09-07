@@ -107,6 +107,11 @@ img {
     text-transform: uppercase;
 	color: #ffffff;
 	cursor: pointer;
+	transition: 0.1s ease-in-out;
+
+	&:hover {
+		color: rgb(205, 205, 223);
+	}
 
 	&--blue {
 		background-color: $color-blue;
@@ -117,13 +122,24 @@ img {
 	}
 }
 
+.button--blue-lighter {
+	&:hover {
+		background-color: #1878a5;
+	}
+}
+.button--blue {
+	&:hover {
+		background-color: #274f83;
+	}
+}
+
 .title {
 	@include font-helvetica-neue-consended;
 	font-weight: 700;
 	text-transform: uppercase;
 
 	&--white {
-		color: #fff;
+		color: #26538d;
 	}
 
 	&--blue {
@@ -705,6 +721,7 @@ img {
 
 	.title {
 		font-size: 32px;
+		color: #fff;
 	}
 
 	@media (max-width: 992px) {

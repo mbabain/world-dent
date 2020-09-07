@@ -75,18 +75,27 @@ img {
   font-stretch: expanded;
   text-transform: uppercase;
   color: #ffffff;
-  cursor: pointer; }
+  cursor: pointer;
+  transition: 0.1s ease-in-out; }
+  .button:hover {
+    color: #cdcddf; }
   .button--blue {
     background-color: #205CA8; }
   .button--blue-lighter {
     background-color: #0295DA; }
+
+.button--blue-lighter:hover {
+  background-color: #1878a5; }
+
+.button--blue:hover {
+  background-color: #274f83; }
 
 .title {
   font-family: 'Helvetica-Neue-Consended';
   font-weight: 700;
   text-transform: uppercase; }
   .title--white {
-    color: #fff; }
+    color: #26538d; }
   .title--blue {
     color: #205CA8; }
 
@@ -440,7 +449,8 @@ img {
       font-size: 20px;
       color: #fff; }
   .section-advantages .title {
-    font-size: 32px; }
+    font-size: 32px;
+    color: #fff; }
   @media (max-width: 992px) {
     .section-advantages-items {
       display: flex;
